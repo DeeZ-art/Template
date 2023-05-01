@@ -1,0 +1,85 @@
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    font-size: 3em;
+}
+.navbar-toggler-icon{
+    width: 0.6em;
+    height: 1em;
+}
+.shad{
+    box-shadow: 4px 12px 6px rgb(108 84 84 / 67%);
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #ffffff;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffd62e;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.fs-6 {
+    font-size: 1.5rem!important;
+}
+/* rotating the card */
+/* .flip-card{
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+.flip-card-front,
+.flip-card-back{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.8s cubic-bezier(0.4,0.2,0.2,1);
+}
+.flip-card-front{
+    transform: rotateY(180deg);
+}
+.flip-card-back{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+.flip-card-front::after,
+.flip-card-back::after{
+    content: " ";
+    position: absolute;
+    opacity: 0.6;
+}
+.flip-card-front .inner,
+.flip-card-back .inner{
+    position: absolute;
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    z-index: 2;
+}
+.flip-card:hover .flip-card-front{
+    transform: rotateY(-180deg);
+}
+.flip-card:hover .flip-card-back{
+    transform: rotateY(0deg);
+} */
+
+.zoom{
+    transition: transform 0.4s;
+    
+    
+}
+.zoom:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 8px 5px rgba(19, 17, 17, 0.533);
+    z-index: 1;
+}
